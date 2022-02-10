@@ -29,7 +29,6 @@ class FrameColors : Frame(), WindowListener, AdjustmentListener {
     }
 
     override fun adjustmentValueChanged(e: AdjustmentEvent) {
-        //8.1: Initialize RGB Components
         var red: Int
         var blue: Int
         var green: Int
